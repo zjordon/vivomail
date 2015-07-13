@@ -39,7 +39,7 @@
 <!-- PAGE CONTENT ENDS HERE -->
 <table width="100%" border="0" cellspacing="0" cellpadding="10">
   <tr class="page-header">
-    <td width="300"><button class="btn btn-small2 btn-warning"  onclick="location.href='新建邮件.html'"><i class="icon-envelope"></i> 新建邮件</button>
+    <td width="300"><button class="btn btn-small2 btn-warning"  onclick="location.href='mailController.do?addorupdate'"><i class="icon-envelope"></i> 新建邮件</button>
       <button class="btn btn-small2 btn-success"> <i class="icon-flag"></i> 复制</button>
       <div class="btn-group">
         <button data-toggle="dropdown" class="btn btn-info btn-small dropdown-toggle">状态筛选 <span class="caret"></span></button>

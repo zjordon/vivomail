@@ -29,4 +29,9 @@ public class MailController extends BaseController {
 	public ModelAndView sendedMail(HttpServletRequest request) {
 		return new ModelAndView("com/sewcloud/vivomail/mail/sendedMailList");
 	}
+	
+	@RequestMapping(params = "addorupdate")
+	public ModelAndView addorupdate(HttpServletRequest req) {
+		return new ModelAndView("com/sewcloud/vivomail/mail/mail");
+	}
 }

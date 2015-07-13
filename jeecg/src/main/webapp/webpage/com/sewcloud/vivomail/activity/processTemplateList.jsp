@@ -1019,8 +1019,8 @@
           <tr>
             <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
               <tr>
-                <td width="80"><img src="images/gjl.jpg" width="80" height="379"></td>
-                <td align="center"><img src="images/lc.jpg" width="504" height="298"></td>
+                <td width="80"><img src="plug-in/vivomail/images/gjl.jpg" width="80" height="379"></td>
+                <td align="center"><img src="plug-in/vivomail/images/lc.jpg" width="504" height="298"></td>
               </tr>
             </table></td>
           </tr>
