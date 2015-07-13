@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+
+.modal-open {
+	overflow: hidden;
+}
+body.modal-open {
+	margin-right: 15px;
+}
+.modal-open .navbar-fixed-top {
+	margin-right: 15px;
+}
+.modal-open .navbar-fixed-bottom {
+	margin-right: 15px;
+}
+.modal {
+	left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: auto; display: none; position: fixed; z-index: 1040; -ms-overflow-y: scroll;
+}
+.fade.modal .modal-dialog {/*窗口出现距离*/
+	transition:transform 0.3s ease-out; transform: translate(0, -75%); -webkit-transition: -webkit-transform .3s ease-out; -webkit-transform: translate(0, -25%); -moz-transition: -moz-transform .3s ease-out; -o-transition: -o-transform .3s ease-out;
+}
+.in.modal .modal-dialog {
+	transform: translate(0, 0); -webkit-transform: translate(0, 0);
+}
+.modal-dialog {
+	padding: 10px; width: auto; margin-right: auto; margin-left: auto; z-index: 1050;
+}
+.modal-content {
+	outline: 0px; border-radius: 6px; border: 1px solid rgba(0, 0, 0, 0.2); position: relative; box-shadow: 0px 3px 9px rgba(0,0,0,0.5); background-clip: padding-box; background-color: rgb(255, 255, 255); -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+}
+.modal-backdrop {
+	left: 0px; top: 0px; right: 0px; bottom: 0px; position: fixed; z-index: 1030; background-color: rgb(0, 0, 0);
+}
+.fade.modal-backdrop {
+	opacity: 0;
+}
+.in.modal-backdrop {
+	opacity: 0.5;
+}
+.modal-header {
+	padding: 15px; border-bottom-color: #e5e5e5; border-bottom-width: 1px; border-bottom-style: solid; min-height: 16.42px;
+}
+.modal-header {
+	padding: 17px 20px; border: 1px solid rgb(17, 17, 17); border-top-left-radius: 5px; border-top-right-radius: 5px; box-shadow: inset 0px 1px 0px rgba(255,255,255,0.25); background-image: linear-gradient(rgb(68, 68, 68) 0%, rgb(45, 45, 45) 100%); background-repeat: repeat-x;
+}
+.modal-header .close {
+	color: rgb(255, 255, 255); opacity: 100; text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+.modal-title {
+	margin: 0px;
+	line-height: 1.4285;
+	color: #FFF;
+}
+.modal-body {
+	padding: 20px; position: relative;
+}
+.modal-footer-text{
+	font-size: 14px;
+	text-decoration: none;
+	text-align: left;
+	font-weight: bold;
+}
+.modal-footer {
+	padding: 19px 20px 20px; text-align: right; margin-top: 15px; border-top-color: #e5e5e5; border-top-width: 1px; border-top-style: solid;
+}
+.modal-footer::before {
+	display: table; content: " ";
+}
+.modal-footer::after {
+	display: table; content: " ";
+}
+.modal-footer::after {
+	clear: both;
+}
+.modal-footer::before {
+	display: table; content: " ";
+}
+.modal-footer::after {
+	display: table; content: " ";
+}
+.modal-footer::after {
+	clear: both;
+}
+.modal-footer .btn + .btn {
+	margin-bottom: 0px; margin-left: 5px;
+}
+.modal-footer .btn-group .btn + .btn {
+	margin-left: -1px;
+}
+.modal-footer .btn-block + .btn-block {
+	margin-left: 0px;
+}
+@media screen and (min-width:768px)
+{
+.modal-dialog {/*窗口相关样式 */
+	left: 50%; width: 600px; right: auto; padding-top: 50px; padding-bottom: 30px;
+}
+.modal-content {
+	box-shadow: 0px 5px 15px rgba(0,0,0,0.5); -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+}
+
+
+.close2 {
+	color: #FFFFFF; line-height: 1; font-size: 22px; font-weight: bold; float: right; background: none repeat scroll 0% 0% transparent;
+	border: 0px none;}
+.close2:hover {
+	color: #f3c53c; text-decoration: none; cursor: pointer;
+}
+.close2:focus {
+	color: #f3c53c; text-decoration: none; cursor: pointer; 
+}
+
+.btn {
+	padding: 6px 12px; border-radius: 4px; border: 1px solid transparent; text-align: center; line-height: 1.4285; font-size: 14px; font-weight: normal; margin-bottom: 0px; vertical-align: middle; display: inline-block; white-space: nowrap; cursor: pointer; -ms-user-select: none; -webkit-user-select: none; -moz-user-select: none; -o-user-select: none; user-select: none;
+}
+.btn:focus {
+	outline: #333333 dotted thin; outline-offset: -2px;
+}
+.btn:hover {
+	color: #333333; text-decoration: none;
+}
+.btn:focus {
+	color: #333333; text-decoration: none;
+}
+.btn:active {
+	outline: 0px; box-shadow: inset 0px 3px 5px rgba(0,0,0,0.125); background-image: none; -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
